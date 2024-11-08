@@ -11,7 +11,7 @@ export default function Home() {
   }, []);
   return (
     <div>
-      <audio autoPlay loop ref={audioRef}>
+      <audio controls autoPlay loop ref={audioRef}>
         <source
           src={
             'https://res.cloudinary.com/braiwjaya-university/video/upload/v1731082428/olpa_obssce.mp3'
